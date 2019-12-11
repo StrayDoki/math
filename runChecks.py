@@ -60,6 +60,7 @@ def check_non_unique_test_names():
             "Tests or test fixtures with non-unqiue names found in test/unit:\n\n" +
             duplicates_error_msg
         )
+        //modificaciones
     return errors
 
 def grep_patterns(type, folder, patterns_and_messages, exclude_filters=[]):
